@@ -36,7 +36,7 @@ Resources:
         cd /home/ec2-user
         wget -P templates https://raw.githubusercontent.com/ErdiErkan/romen-number-converter/main/templates/index.html
         wget -P templates https://github.com/ErdiErkan/romen-number-converter/blob/main/templates/result.html
-        wget https://raw.githubusercontent.com/ErdiErkan/romen-number-converter/main/roman-numerals-converter-app.py
+        wget https://raw.githubusercontent.com/ErdiErkan/romen-number-converter/main/app.py
         python3 app.py
 
   mySecGrp:
